@@ -1,0 +1,18 @@
+{
+  "name": "iogameserver",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint ./*.js --color",
+    "lint:watch": "esw -w ./*.js --color"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "*",
+    "express": "*"
+  },
+  "devDependencies": {
+    "@eleks/eslint-config-eleks": "^0.1.1",
+    "eslint": "^2.1.0",
+    "eslint-watch": "^2.1.14"
+  }
+}

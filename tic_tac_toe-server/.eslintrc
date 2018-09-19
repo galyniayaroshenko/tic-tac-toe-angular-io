@@ -1,0 +1,43 @@
+{
+  "extends": "./node_modules/@eleks/eslint-config-eleks/base.js",
+  "globals": {
+    "window": true
+  },
+  "env": {
+    "node": true,
+    "browser": false,
+    "es6": true
+  },
+  "rules": {
+    "arrow-body-style": 0,
+    "consistent-return": 0,
+    "curly": [2, "all"],
+    "func-call-spacing": 0,
+    "guard-for-in": 0,
+    "indent": [2, "tab"],
+    "no-debugger": 1,
+    "no-global-assign": 0,
+    "no-magic-numbers": 0,
+    "no-multiple-empty-lines": [1, {
+      "max": 1
+    }],
+    "no-return-await": 0,
+    "no-template-curly-in-string": 0,
+    "no-useless-return": 0,
+    "no-unsafe-negation": 0,
+    "no-var": 2,
+    "one-var": [2, {
+      "uninitialized": "always",
+      "initialized": "never"
+    }],
+    "operator-linebreak": [2, "after"],
+    "prefer-const": 2,
+    "radix": 0,
+    "space-before-function-paren": [2, {
+      "anonymous": "always",
+      "named": "never"
+    }],
+    "strict": [2, "global"],
+    "symbol-description": 0
+  }
+}

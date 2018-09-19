@@ -1,0 +1,23 @@
+.board {
+  margin: auto;
+  margin-top: 50px;
+  width: 350px;
+
+  button {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 48px;
+
+    &:hover {
+      cursor: pointer;
+
+      &.disabled {
+        cursor: default;
+      }
+    }
+  }
+}

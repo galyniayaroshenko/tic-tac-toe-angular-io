@@ -1,0 +1,10 @@
+<div class="board">
+  <button
+    id="{{index}}"
+    *ngFor="let index of stateIndexs"
+    (click)="makeMove($event, index)"
+    [disabled]="disabled"
+    [ngClass]="{disabled: disabled}"
+  ></button>
+</div>
+<h4>{{ message }}</h4>
